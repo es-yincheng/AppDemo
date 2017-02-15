@@ -12,6 +12,21 @@
 		580038F11E52E2F9009F9146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580038EF1E52E2F9009F9146 /* Main.storyboard */; };
 		580038F31E52E2F9009F9146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580038F21E52E2F9009F9146 /* Assets.xcassets */; };
 		580038F61E52E2F9009F9146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580038F41E52E2F9009F9146 /* LaunchScreen.storyboard */; };
+		580039021E52E3B1009F9146 /* YCAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580039011E52E3B1009F9146 /* YCAnimationVC.swift */; };
+		580039051E52E3DB009F9146 /* YCBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580039041E52E3DB009F9146 /* YCBaseViewController.swift */; };
+		580039071E52E3F7009F9146 /* YCNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580039061E52E3F7009F9146 /* YCNavigationController.swift */; };
+		580039091E52E407009F9146 /* YCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580039081E52E407009F9146 /* YCTabBarController.swift */; };
+		5800390E1E52E532009F9146 /* YCHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5800390D1E52E532009F9146 /* YCHomeViewController.swift */; };
+		580039111E52EE0C009F9146 /* YCAnimationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580039101E52EE0C009F9146 /* YCAnimationCell.swift */; };
+		580039141E53000A009F9146 /* YCGCDCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580039121E53000A009F9146 /* YCGCDCell.swift */; };
+		580039151E53000A009F9146 /* YCGCDCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 580039131E53000A009F9146 /* YCGCDCell.xib */; };
+		5800394B1E530AE6009F9146 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580039321E530AE6009F9146 /* Bundle+Extensions.swift */; };
+		5800394C1E530AE6009F9146 /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580039331E530AE6009F9146 /* UIBarButtonItem+Extensions.swift */; };
+		5800394D1E530AE6009F9146 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580039341E530AE6009F9146 /* UIButton+Extensions.swift */; };
+		5800394E1E530AE6009F9146 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580039351E530AE6009F9146 /* UIImage+Extensions.swift */; };
+		5800394F1E530AE6009F9146 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580039361E530AE6009F9146 /* UIImageView+Extensions.swift */; };
+		580039501E530AE6009F9146 /* UIImageView+WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580039371E530AE6009F9146 /* UIImageView+WebImage.swift */; };
+		580039561E530EBE009F9146 /* YCTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580039551E530EBE009F9146 /* YCTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +37,21 @@
 		580038F21E52E2F9009F9146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		580038F51E52E2F9009F9146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		580038F71E52E2F9009F9146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580039011E52E3B1009F9146 /* YCAnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCAnimationVC.swift; sourceTree = "<group>"; };
+		580039041E52E3DB009F9146 /* YCBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCBaseViewController.swift; sourceTree = "<group>"; };
+		580039061E52E3F7009F9146 /* YCNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCNavigationController.swift; sourceTree = "<group>"; };
+		580039081E52E407009F9146 /* YCTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCTabBarController.swift; sourceTree = "<group>"; };
+		5800390D1E52E532009F9146 /* YCHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCHomeViewController.swift; sourceTree = "<group>"; };
+		580039101E52EE0C009F9146 /* YCAnimationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCAnimationCell.swift; sourceTree = "<group>"; };
+		580039121E53000A009F9146 /* YCGCDCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCGCDCell.swift; sourceTree = "<group>"; };
+		580039131E53000A009F9146 /* YCGCDCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCGCDCell.xib; sourceTree = "<group>"; };
+		580039321E530AE6009F9146 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		580039331E530AE6009F9146 /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
+		580039341E530AE6009F9146 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		580039351E530AE6009F9146 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		580039361E530AE6009F9146 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		580039371E530AE6009F9146 /* UIImageView+WebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+WebImage.swift"; sourceTree = "<group>"; };
+		580039551E530EBE009F9146 /* YCTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YCTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 		580038EA1E52E2F9009F9146 /* AppDemo */ = {
 			isa = PBXGroup;
 			children = (
+				580038FD1E52E370009F9146 /* Classes */,
 				580038EB1E52E2F9009F9146 /* AppDelegate.swift */,
 				580038ED1E52E2F9009F9146 /* ViewController.swift */,
 				580038EF1E52E2F9009F9146 /* Main.storyboard */,
@@ -62,6 +93,108 @@
 				580038F71E52E2F9009F9146 /* Info.plist */,
 			);
 			path = AppDemo;
+			sourceTree = "<group>";
+		};
+		580038FD1E52E370009F9146 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				580039161E530AE6009F9146 /* Tools */,
+				580038FE1E52E370009F9146 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		580038FE1E52E370009F9146 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				580039031E52E3CE009F9146 /* Main */,
+				5800390C1E52E51C009F9146 /* Home */,
+				5800390A1E52E51C009F9146 /* Product */,
+				5800390B1E52E51C009F9146 /* Profile */,
+				580038FF1E52E370009F9146 /* Animations */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		580038FF1E52E370009F9146 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				580039001E52E370009F9146 /* VCTransition */,
+				580039011E52E3B1009F9146 /* YCAnimationVC.swift */,
+				580039551E530EBE009F9146 /* YCTestViewController.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		580039001E52E370009F9146 /* VCTransition */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VCTransition;
+			sourceTree = "<group>";
+		};
+		580039031E52E3CE009F9146 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				580039041E52E3DB009F9146 /* YCBaseViewController.swift */,
+				580039061E52E3F7009F9146 /* YCNavigationController.swift */,
+				580039081E52E407009F9146 /* YCTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		5800390A1E52E51C009F9146 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		5800390B1E52E51C009F9146 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5800390C1E52E51C009F9146 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5800390F1E52EDF8009F9146 /* cell */,
+				5800390D1E52E532009F9146 /* YCHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5800390F1E52EDF8009F9146 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				580039101E52EE0C009F9146 /* YCAnimationCell.swift */,
+				580039121E53000A009F9146 /* YCGCDCell.swift */,
+				580039131E53000A009F9146 /* YCGCDCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		580039161E530AE6009F9146 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				580039311E530AE6009F9146 /* Extensions */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		580039311E530AE6009F9146 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				580039321E530AE6009F9146 /* Bundle+Extensions.swift */,
+				580039331E530AE6009F9146 /* UIBarButtonItem+Extensions.swift */,
+				580039341E530AE6009F9146 /* UIButton+Extensions.swift */,
+				580039351E530AE6009F9146 /* UIImage+Extensions.swift */,
+				580039361E530AE6009F9146 /* UIImageView+Extensions.swift */,
+				580039371E530AE6009F9146 /* UIImageView+WebImage.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +223,7 @@
 		580038E01E52E2F8009F9146 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YC;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = yc;
@@ -124,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580039151E53000A009F9146 /* YCGCDCell.xib in Resources */,
 				580038F61E52E2F9009F9146 /* LaunchScreen.storyboard in Resources */,
 				580038F31E52E2F9009F9146 /* Assets.xcassets in Resources */,
 				580038F11E52E2F9009F9146 /* Main.storyboard in Resources */,
@@ -137,8 +272,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580039561E530EBE009F9146 /* YCTestViewController.swift in Sources */,
+				5800394F1E530AE6009F9146 /* UIImageView+Extensions.swift in Sources */,
+				580039021E52E3B1009F9146 /* YCAnimationVC.swift in Sources */,
+				5800394D1E530AE6009F9146 /* UIButton+Extensions.swift in Sources */,
+				5800394E1E530AE6009F9146 /* UIImage+Extensions.swift in Sources */,
+				5800394C1E530AE6009F9146 /* UIBarButtonItem+Extensions.swift in Sources */,
+				580039091E52E407009F9146 /* YCTabBarController.swift in Sources */,
+				580039071E52E3F7009F9146 /* YCNavigationController.swift in Sources */,
+				580039141E53000A009F9146 /* YCGCDCell.swift in Sources */,
 				580038EE1E52E2F9009F9146 /* ViewController.swift in Sources */,
+				580039501E530AE6009F9146 /* UIImageView+WebImage.swift in Sources */,
+				580039111E52EE0C009F9146 /* YCAnimationCell.swift in Sources */,
 				580038EC1E52E2F9009F9146 /* AppDelegate.swift in Sources */,
+				5800394B1E530AE6009F9146 /* Bundle+Extensions.swift in Sources */,
+				580039051E52E3DB009F9146 /* YCBaseViewController.swift in Sources */,
+				5800390E1E52E532009F9146 /* YCHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -248,7 +397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -302,6 +451,7 @@
 				580038FC1E52E2F9009F9146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
